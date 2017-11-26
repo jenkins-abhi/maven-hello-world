@@ -1,7 +1,12 @@
 pipeline {
     agent any
+    tools {
+        maven 'MAVEN3'
+        jdk 'JDK9'
+    }
 
     stages {
+        
         stage('Build') {
             steps {
                 sh 'mvn clean install'
