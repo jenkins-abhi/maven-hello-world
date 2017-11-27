@@ -18,7 +18,7 @@ public class AppTest
         assertTrue(hello.equals("Hello World"));
 
    }
-   @Test
+//   @Test
 //   public void shouldSayHelloName(){
 //        App greeter = new App();
 //        String hello = greeter.sayHelloWithName("Abhi");
