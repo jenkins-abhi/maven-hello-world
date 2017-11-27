@@ -27,6 +27,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
+                sh 'cp target/helloWorld-1.0-SNAPSHOT.jar ~/deploy'
             }
         }
     }
