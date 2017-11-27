@@ -18,12 +18,12 @@ public class AppTest
         assertTrue(hello.equals("Hello World"));
 
    }
-   @Test
-   public void shouldSayHelloName(){
-        App greeter = new App();
-        String hello = greeter.sayHelloWithName("Abhi");
-        assertTrue(hello.equals("Hello Abhi"));
-
-   }
+//   @Test
+//   public void shouldSayHelloName(){
+//        App greeter = new App();
+//        String hello = greeter.sayHelloWithName("Abhi");
+//        assertTrue(hello.equals("Hello Abhi"));
+//
+//   }
 
 }
