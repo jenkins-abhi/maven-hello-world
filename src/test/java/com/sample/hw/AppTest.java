@@ -19,11 +19,11 @@ public class AppTest
 
    }
    @Test
-   public void shouldSayHelloName(){
-        App greeter = new App();
-        String hello = greeter.sayHelloWithName("Abhi");
-        assertTrue(hello.equals("Hello Abhi"));
-
-   }
+//   public void shouldSayHelloName(){
+//        App greeter = new App();
+//        String hello = greeter.sayHelloWithName("Abhi");
+//        assertTrue(hello.equals("Hello Abhi"));
+//
+//   }
 
 }
